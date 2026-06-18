@@ -53,7 +53,6 @@ void init_x11() {
     
     screen = DefaultScreen(dis);
     
-    // 2. Create the window
     win = XCreateSimpleWindow(
         dis, 
         RootWindow(dis, screen), 
